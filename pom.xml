@@ -6,10 +6,22 @@
 
     <groupId>com.vmware</groupId>
     <artifactId>com.vmware.lmock</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <name>LMock</name>
-    <description>LMock testing library</description>
+    <description>LMock testing library with multi-thread support</description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/xioxoz/lmock</url>
+    </scm>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>

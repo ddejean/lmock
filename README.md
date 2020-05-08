@@ -1,17 +1,16 @@
-General information about this source tree
-==========================================
-Thanks for downloading Lmock. This README file contains directives about how to play with those sources.
+Lmock - Mock test library with multi-thread support
+===================================================
 
-Overall organization
---------------------
-The main directories of this project are:
-* src/main: Lmock sources
-* src/test: JUnit tests of Lmock
-* doc: the project documentation
+Lmock is a mock testing library designed to write tests as we tell a story. It
+has been designed to support mock calls on multiple threads.
 
-The examples sub-directory contains informal examples of JUnit tests that do not necessarily pass.
-The tests are aimed to run on a basic java environment with JUnit4. For Android, you should use the converter provided by tool/send2Droid, as explained later in this document.
+It relies on the following paradigm to design your tests: “a test tells
+a story that must comply with a scenario defined as a series of expectations
+using mocks”.
 
-You may edit Lmock with your favorite IDE:
-* Netbeans: please use the formatter provided in tools/nb-formatter.zip to align with the coding conventions of this project
-* Other IDEs: there is no specific support (but it works well in Eclipse)
+The library was written by David Furodet (@dfurodet) and published as an
+open-source project by VMware, this repository is a fork dedicated to modernize
+the build, maintain the library and publish an up to date artifact.
+
+You can get familiar with the library concepts by refering to the documentation
+available in the [Wiki](/xioxoz/lmock/wiki).

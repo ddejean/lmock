@@ -47,7 +47,6 @@ import com.vmware.lmock.clauses.HasOccurrencesSpecificationClauses;
  *         EXPECTATION_INFORMATION_IF_ANY
  * </code>
  * </pre>
- * <p>
  *
  * <p>
  * Where MOCK is the invoked mock and INVOCATION is a call to the expected

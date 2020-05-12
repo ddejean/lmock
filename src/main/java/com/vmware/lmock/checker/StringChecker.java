@@ -109,6 +109,7 @@ public abstract class StringChecker implements Checker<String> {
      *
      * @param reference
      *            the reference string
+     * @return an instance of a checker configured for equality.
      */
     public static StringChecker valuesEqual(String reference) {
         return new StringChecker("equals", reference) {
@@ -126,6 +127,7 @@ public abstract class StringChecker implements Checker<String> {
      *
      * @param reference
      *            the reference string
+     * @return an instance of a checker configured in contains mode.
      */
     public static StringChecker valuesContain(String reference) {
         return new StringChecker("contains", reference) {
@@ -143,6 +145,7 @@ public abstract class StringChecker implements Checker<String> {
      *
      * @param reference
      *            the reference regular expression
+     * @return an instance of a checker configured in matches mode.
      */
     public static StringChecker valuesMatch(String reference) {
         return new StringChecker("matches", reference) {

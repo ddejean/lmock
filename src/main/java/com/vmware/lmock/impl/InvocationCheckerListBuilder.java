@@ -164,6 +164,8 @@ abstract class InvocationCheckerListBuilder<CHECKER extends InvocationChecker, B
     /**
      * Provides a default value for a given class.
      *
+     * @param <T>
+     *            the type parameter.
      * @param clazz
      *            the requested class
      * @return The created default value.
@@ -195,6 +197,8 @@ abstract class InvocationCheckerListBuilder<CHECKER extends InvocationChecker, B
      * Registers any argument of a given class for the expectation under
      * construction.
      *
+     * @param <T>
+     *            the type parameter.
      * @param clazz
      *            the expected class of arguments
      * @return An object of the requested class.
@@ -216,6 +220,8 @@ abstract class InvocationCheckerListBuilder<CHECKER extends InvocationChecker, B
      * Registers any non-null argument of a given class for the expectation
      * under construction.
      *
+     * @param <T>
+     *            the type parameter.
      * @param clazz
      *            the expected class of arguments
      * @return An object of the requested class.
@@ -240,6 +246,8 @@ abstract class InvocationCheckerListBuilder<CHECKER extends InvocationChecker, B
      * This clause specifies the exact value expected during the invocations.
      * </p>
      *
+     * @param <T>
+     *            the type parameter.
      * @param object
      *            the registered object
      * @return An object of the requested class.
@@ -256,6 +264,8 @@ abstract class InvocationCheckerListBuilder<CHECKER extends InvocationChecker, B
      * Registers an explicit checker to an argument for the current expectation
      * under construction.
      *
+     * @param <T>
+     *            the type parameter.
      * @param checker
      *            the registered checker
      * @return An object of the related class of the checker

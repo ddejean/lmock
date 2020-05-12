@@ -82,6 +82,8 @@ class InvocationChecker implements Checker<Invocation> {
      * method.
      * </p>
      *
+     * @param <T>
+     *            the type parameter.
      * @param checkerList
      *            the list of checkers to the arguments. Can be null.
      */
